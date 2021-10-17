@@ -10,8 +10,8 @@ Animation de 4 TPs sur des thématiques autour de la sécurité informatique.
 Vous réaliserez les TPs par groupe et vous conserverez les mêmes groupes tout au long des séances.
 
 * [TP1 - ARP Spoofing](TP1-MitM.md)
-* TP2 - Firewall
-* TP3 - Chiffrement des échanges
+* [TP2 - Firewall](TP2-Firewall.md)
+* [TP3 - Chiffrement des échanges](TP3-crypto.md)
 * TP4 - Réponse à incident de sécurité & Investigations numériques
 
 
