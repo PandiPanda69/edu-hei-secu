@@ -7,7 +7,7 @@ Durée: 2 heures
 Préparation de l'environnement
 ==============================
 
-Tout comme les précédents [TP](https://github.com/PandiPanda69/edu-isen-tp-ap4/blob/main/TP1-MitM.md), ce TP sera réalisé en s'appuyant sur la plateforme [MI-LXC](https://github.com/flesueur/mi-lxc).
+Tout comme les précédents [TP](https://github.com/PandiPanda69/edu-hei-secu/blob/main/TP1-MitM.md), ce TP sera réalisé en s'appuyant sur la plateforme [MI-LXC](https://github.com/flesueur/mi-lxc).
 
 Pour rappel, l'infrastructure déployée simule plusieurs postes dont un SI d'entreprise (firewall, DMZ, intranet, authentification centralisée, serveur de fichiers, quelques postes de travail internes de l'entreprise _Target_),
 une machine d'attaquant "isp-a-hacker" et quelques autres servant à l'intégration de l'ensemble.
