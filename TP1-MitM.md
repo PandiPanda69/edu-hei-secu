@@ -2,7 +2,7 @@
 
 _Sébastien Mériot_ ([@smeriot](https://twitter.com/smeriot))
 
-Durée: 2 heures
+Durée: 3 heures
 
 Préparation de l'environnement
 ==============================
@@ -117,9 +117,18 @@ A l'aide de `ifconfig`, ajoutez une nouvelle interface réseau afin de résoudre
 9. Vérifiez à l'aide de `ifconfig` que votre interface est correctement configurée. Relancez `curl`. Que se passe-t-il ?
 10. Tentez d'expliquer pourquoi, malgré l'ARP spoofing, vous aviez quand même une réponse lors de la question 8.
 
-Rogue DNS (bonus)
+Rogue DNS
 =================
 
-12. A votre avis, pourquoi est-il intéressant d'usurper un serveur DNS plutôt que le serveur web ?
-13. Expliquez comment vous feriez pour mettre en place l'usurpation du serveur DNS dans ce cas de figure ?
-14. Pour ne pas éveiller de soupçons concernant les zones DNS internes de l'entreprise, comment feriez-vous pour que le comportement soit transparent ?
+12. A votre avis, quel serait l'intérêt d'usurper un serveur DNS plutôt que le serveur web ?
+
+14. A l'aide d'un schéma, modélisez l'architecture que vous mettriez en place pour mettre en place un tel dispositif ? De quoi avez-vous besoin ?
+
+> Vous avez la possibilité d'installer de nouveaux paquets grâce à l'utilisateur _root_.
+
+15. Mettez en place le dispositif en reprenant le même scénario. Le développeur souhaite s'attaquer à l'administrateur système, mais cette fois au lieu de vouloir voler ses identifiants intranet, le développeur souhaite dérober les identifiants du site internet `http://perdu.com`.
+
+Bonus
+======
+
+16. Imaginons que l'Intranet et que `perdu.com` utilisaient tous les deux _TLS_ et que les connexions s'établissaient au travers du protocole _HTTPS_, est-ce que le développeur aurait pu mettre en place ce type d'attaque ? Pourquoi ?
