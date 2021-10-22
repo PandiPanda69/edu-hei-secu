@@ -62,6 +62,12 @@ Cette petite entreprise n'a malheureusement aucune documentation concernant le p
 
 1. Récapitulez sous forme de tableau le plan d'adressage du réseau. Indiquez, pour chaque machine, l'adresse IPv4 ainsi que son adresse MAC. Expliquez comment vous avez procédé.
 
+Par exemple:
+| Machine | MAC | IP |
+| :------:| :--: | :--: |
+| target-admin | xxxx:xxxx:xxxx:xxxx:xxxx | 100.80.xxx.xxx |
+| target-dev   | yyyy:yyyy:yyyy:yyyy:yyyy | 100.80.yyy.yyy |
+
 **Faites valider par votre encadrant le plan d'adressage.**
 
 ARP Spoofing
@@ -69,7 +75,7 @@ ARP Spoofing
 
 Nous allons à présent tenter de mettre en oeuvre une attaque dite `ARP Spoofing`.
 
-2. Rappelez succintement la mise en oeuvre de ce type d'attaque comme vu dans le cours.
+2. Rappelez succintement la mise en oeuvre de ce type d'attaque comme (pas) vu dans le cours.
 
 Nous allons considérer que pour une raison inconnue, le développeur de l'entreprise souhaite s'attaquer à l'administrateur système afin de lui dérober ses identifiants Intranet. Le but de l'attaque sera donc de faire en sorte que l'administrateur système entre ses identifiants sur un serveur web qui n'est pas l'intranet.
 
