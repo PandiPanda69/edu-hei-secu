@@ -65,8 +65,8 @@ Cette petite entreprise n'a malheureusement aucune documentation concernant le p
 Par exemple:
 | Machine | MAC | IP |
 | :------:| :--: | :--: |
-| target-admin | xxxx:xxxx:xxxx:xxxx:xxxx | 100.80.xxx.xxx |
-| target-dev   | yyyy:yyyy:yyyy:yyyy:yyyy | 100.80.yyy.yyy |
+| target-admin | xx:xx:xx:xx:xx | 100.80.xxx.xxx |
+| target-dev   | yy:yy:yy:yy:yy | 100.80.yyy.yyy |
 
 **Faites valider par votre encadrant le plan d'adressage.**
 
