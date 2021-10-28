@@ -96,9 +96,6 @@ Incluez le résultat final dans votre compte-rendu.
 > Il nous est indiqué que le fichier chiffré est présent sur la machine _target-intranet_ et qu'il aurait été chiffré sur cette même machine. Nous allons donc nous concentrer sur celle-ci.
 
 7. En vous appuyant sur les investigations précédentes, identifiez la commande qui a déclenché le(s) flux réseau anormaux.
-
-> Pour vous aider à convertir un _timestamp_ en date, vous pouvez utiliser la commande `date -d @1635370365` où `1635370365` est le timestamp à convertir en date humainement lisible, ou bien utiliser des outils en ligne tel que https://www.epochconverter.com/.
-
 8. A quoi sert cette commande ?
 9. Quelle est la commande qui suit ? A quoi cela correspond ?
 10. Est-ce que la commande à la question 8. fonctionne toujours ? Pouvez-vous la rejouer ?
