@@ -1,4 +1,4 @@
-# TP6 - Digital Forensics & Incident Response
+# TP4 - Digital Forensics & Incident Response
 
 _Sébastien Mériot ([@smeriot](https://twitter.com/smeriot))_
 
